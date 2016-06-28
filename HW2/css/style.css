@@ -1,0 +1,168 @@
+/*header*/
+.name {
+	font-size: 50px;
+	margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+	font-family: 'Open Sans', arial;
+}
+
+.navigation	{
+	font-size:0;
+  line-height:0;
+  letter-spacing: -1px;
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+	border-color: rgba(8, 8, 8, 0);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.navigation li {
+	margin: 0 10px 0 10px;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: normal;
+	display:-moz-inline-stack!important;
+	display: inline-block;
+	zoom: 1;
+	padding: 10px;
+}
+
+.navigation li a {
+	  font-size: 14px;
+    padding: 10px;
+    color: white;
+		font-family: 'Open Sans', arial;
+		text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-image: -webkit-linear-gradient(left, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -o-linear-gradient(left, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: linear-gradient(to right, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+}
+
+.navigation li a:active {
+	background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: white;
+}
+
+/*conteiner*/
+
+.conteiner {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.sidebar {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.group{
+	font-size:0;
+  line-height:0;
+  letter-spacing: -1px;
+}
+
+.group li {
+  line-height: normal;
+  letter-spacing: normal;  
+ 	border: 1px solid #dddddd;
+ 	margin-left: 10 px;
+}
+
+.group li a {
+	  font-size: 14px;
+    color: black;
+    line-height: 2;
+    font-family: 'Open Sans', arial;
+    padding-left: 30px;
+    padding-right: 90px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    text-decoration: none;    
+}
+
+.group li a:hover {
+	padding-left: 35px;
+  padding-right: 90px;
+  background-color: #fceded;
+}
+
+.images {
+	border: 1px solid;
+  border-color: #dddddd;
+	margin-bottom: 20px;
+	margin-left: 300px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.images img {
+	width: 580px;
+  height: 335px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+
+ .content p {
+ 	  margin: 0px 35px 0px 300px;
+    color: rgb(44, 44, 44);
+    line-height: 1.6;
+    font-family: 'Open Sans', arial;
+		font-size: 14px;
+ }
+
+ /*footer*/
+ .foot {
+ 	font-size:0;
+  line-height:0;
+  letter-spacing: -1px;
+  margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #e1e1e1;
+  border-color: rgba(8, 8, 8, 0);
+ }
+
+ .foot li {
+ 		margin: 0 10px 0 10px;
+ 	font-size: 14px;
+	line-height: normal;
+	letter-spacing: normal;
+	display:-moz-inline-stack!important;
+	display: inline-block;
+	zoom: 1;
+	padding: 10px;
+ }
+
+ .foot li a {
+ 	 font-size: 13px;
+    padding: 10px;
+    color: black;
+		font-family: 'Open Sans', arial;
+		text-decoration: none;
+}
+
+.foot li a:hover {
+	text-decoration: underline;
+}
+
+.foot li a:active {
+	text-decoration: underline;
+}
+
+ .foot li:last-child {
+ 		float: right;
+		font-size: 13px;
+    color: black;
+		font-family: 'Open Sans', arial;
+ }
